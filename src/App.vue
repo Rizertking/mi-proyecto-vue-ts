@@ -1,16 +1,18 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <MyComponente />
+  <MyComponente/>
+
 </template>
 
 <script>
 
 import MyComponente from './components/MyComponente.vue';
 
+
 export default {
   name: 'App',
   components: {
-    MyComponente
+    MyComponente,
+
   }
 }
 </script>
@@ -22,6 +24,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  background-color: #31352B;
+  margin-top: -20px; 
 }
 </style>
